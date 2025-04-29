@@ -58,21 +58,9 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
     "zod": "^3.24.1",
-    "rxjs": "latest",
-    "@nestjs/common": "latest",
-    "@nestjs/core": "latest",
-    "@nestjs/websockets": "latest",
-    "@nestjs/serve-static": "latest",
-    "tslib": "latest",
-    "fs": "latest",
-    "nodeplotlib": "latest",
-    "@tensorflow/tfjs-node": "latest",
-    "danfojs-node": "latest",
+    "react-error-boundary": "latest",
     "ml-random-forest": "latest",
-    "ml-matrix": "latest",
-    "sklearn-js": "latest",
-    "smote-js": "latest",
-    "react-error-boundary": "latest"
+    "ml-matrix": "latest"
   },
   "devDependencies": {
     "@types/node": "^22",
