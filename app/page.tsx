@@ -19,7 +19,7 @@ export default function Home() {
                   View Dashboard <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+              <Button asChild size="lg" variant="outline" className="border-white text-emerald-700 hover:bg-white/20">
                 <Link href="/risk-calculator">Try Risk Calculator</Link>
               </Button>
             </div>
@@ -90,7 +90,7 @@ export default function Home() {
                     charts and graphs.
                   </p>
                   <img
-                    src="/placeholder.svg?height=200&width=400"
+                    src="interactivedashboard.jpg"
                     alt="Dashboard preview"
                     className="rounded-md w-full h-48 object-cover bg-gray-100"
                   />
@@ -111,7 +111,7 @@ export default function Home() {
                     recommendations.
                   </p>
                   <img
-                    src="/placeholder.svg?height=200&width=400"
+                    src="riskcalcu.jpg"
                     alt="Risk calculator preview"
                     className="rounded-md w-full h-48 object-cover bg-gray-100"
                   />
@@ -282,7 +282,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
-            <p>© {new Date().getFullYear()} Hospital Readmission Prediction Project. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Hospital Readmission Prediction Project | Eric Aquino | All rights reserved.</p>
           </div>
         </div>
       </footer>
